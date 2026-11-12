@@ -1,0 +1,36 @@
+{
+  "name": "@countinghouse/ch-report",
+  "version": "0.1.0",
+  "description": "The layer-1 usage report of the countinghouse packs: what was read and what was returned, from the runtime's own records, on the command line and as a standalone MCP tool.",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mchen6/ch-report.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=22.16"
+  },
+  "bin": {
+    "ch-report": "bin/ch-report.js",
+    "ch-report-mcp": "mcp/server.js"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "mcp/"
+  ],
+  "scripts": {
+    "test": "node --test \"test/*.test.js\""
+  },
+  "devDependencies": {
+    "countinghouse": "git+https://github.com/mchen6/countinghouse.git#9e1cdb591f470ea502f060ed70ce244bdab633fe"
+  },
+  "allowScripts": {
+    "dtrace-provider": false,
+    "msgpackr-extract": false,
+    "sqlite3": false
+  }
+}
