@@ -2,12 +2,12 @@
 
 The layer-1 usage report of the countinghouse packs: what was read and what was returned, from the runtime's own records, on the command line and as a standalone MCP tool.
 
-**Status: preview.** Runs on [countinghouse](https://github.com/mchen6/countinghouse)
+**Status: retired (2026-11-11).** The usage report is the runtime's built-in tool `countinghouse_usage_report`; this code moves into countinghouse `lib/usage/` and this package is not published. Until then this repository is read-only history. Runs on [countinghouse](https://github.com/mchen6/countinghouse)
 7.2 or later (unreleased at the time of writing). The layer-1 usage report of the countinghouse client packs: a command and a standalone MCP server over stdio.
 
-Part of the countinghouse client packs. The design, the plan and the
-acceptance tests live in [ch-packs](https://github.com/mchen6/ch-packs);
-each package has its own repository (maintainer's decision, 2026-11-11).
+Part of the countinghouse client packs. Each package has its own repository; the family's design, plan and
+acceptance tests are in a repository that stays private until the first
+release.
 
 ## Development
 
