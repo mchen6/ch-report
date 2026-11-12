@@ -6,9 +6,8 @@ The layer-1 usage report of the countinghouse packs: what was read and what was 
 8.0 or later (unreleased; the release that carries the remote client and
 local mode). The layer-1 usage report of the countinghouse client packs: a command and a standalone MCP server over stdio.
 
-Part of the countinghouse client packs. Each package has its own repository; the family's design, plan and
-acceptance tests are in a repository that stays private until the first
-release.
+Part of the countinghouse client packs. Each package has its own repository; the family's design, plan and acceptance
+tests are in [ch-packs](https://github.com/mchen6/ch-packs) (public).
 
 ## Development
 
